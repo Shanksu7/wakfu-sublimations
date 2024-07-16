@@ -1,0 +1,25 @@
+.dungeon {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .selected {
+    background-color: #a4c8c1; /* Very light blue */
+  }
+  
+  .dungeon-name {
+    font-weight: bold;
+  }
+ /* Assuming you have a class named 'card' for your card container */
+.card {
+    background-color: #e3e3e3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #576970;
+  }
+  

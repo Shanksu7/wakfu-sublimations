@@ -1,0 +1,7 @@
+<div *ngFor="let dungeon of dungeons; let i = index"
+     [class.selected]="dungeon === selectedDungeon"
+     (click)="selectDungeon(dungeon)"
+     class="dungeon">
+  <div class="dungeon-name">{{ dungeon.name }}</div>
+  <div class="dungeon-level">Niv. {{ dungeon.lvl }}</div>
+</div>
