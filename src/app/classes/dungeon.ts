@@ -1,7 +1,10 @@
-import { Dungeons } from "../enums/Dungeons";
+import { DungeonType } from "../enums/Dungeons";
 
 export class Dungeon {
+    id: string;
     name: string;
     lvl: number;
-    type: Dungeons;
+    type: number;
+    active: boolean;
+
 }

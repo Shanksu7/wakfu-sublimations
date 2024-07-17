@@ -1,1 +1,5 @@
-<app-dungeon-list></app-dungeon-list>
+
+<div class="row">
+    <div class="dg-list col-6"><app-dungeon-list (selectedDg)="add($event)"></app-dungeon-list></div>
+    <div class="dg-info col-6"><app-dungeon-info [dg]="selectedDungeon"></app-dungeon-info></div>
+</div>

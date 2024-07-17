@@ -1,4 +1,4 @@
-export enum DungeonType {
+export enum DungeonId {
     UB,
     P3,
     R2,
